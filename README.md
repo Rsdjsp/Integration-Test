@@ -15,9 +15,11 @@ Nexton Integration Test
    cd Integration-Test
 
 2. run command:
-    ```docker-compose up --build
+    ```sh
+    docker-compose up --build
 3. Make a postman request:
-    ```curl --location 'http://127.0.0.1:5000/calculate' \
+    ```sh
+    curl --location 'http://127.0.0.1:5000/calculate' \
     --header 'Content-Type: application/json' \
     --data '{
     "expression": "2 + 2 * 2"
